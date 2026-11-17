@@ -1,17 +1,20 @@
 # SWYNEX – Data Cleaning & Preparation
 
 ## Project Overview
+
 This project focuses on cleaning and preparing a raw sales dataset using Python and Pandas as part of **SWYNEX Internship – Task 1: Data Cleaning & Preparation**.
 
 The objective was to identify and handle missing values, duplicate records, inconsistent text values, incorrect data types, invalid prices, and inconsistent date formats to improve overall data quality.
 
 ## Tools & Technologies
+
 - Python
 - Pandas
 - NumPy
 - VS Code
 
 ## Dataset Information
+
 - **Dataset:** Raw Sales Data
 - **Original Records:** 3,060
 - **Original Columns:** 8
@@ -19,7 +22,9 @@ The objective was to identify and handle missing values, duplicate records, inco
 - **Final Columns:** 9
 
 ## Data Quality Issues Identified
+
 The original dataset contained:
+
 - Missing values in City, Category, Quantity, and PaymentMode.
 - 60 duplicate records.
 - Inconsistent city names and capitalization.
@@ -41,6 +46,7 @@ The original dataset contained:
 9. **Data Validation:** Checked duplicate records, missing values, data types, and exported CSV date formats.
 
 ## Important Data Handling Decisions
+
 - Negative quantities were retained and flagged as `Possible Return - Review` because they may represent product returns.
 - Zero quantities were retained and flagged as `Zero Quantity - Review`.
 - Missing UnitPrice values were kept as missing instead of assigning fabricated prices.
@@ -65,13 +71,14 @@ The original dataset contained:
 ## Project Structure
 
 ```text
-SWYNEX-Data-Cleaning-Preparation/
+SWYNEX-Internship-Tasks/
 │
-├── Data.py
-├── raw_sales_data.csv
-├── cleaned_sales_data.csv
-├── requirements.txt
-└── README.md
+└── Task1-Data-Cleaning/
+    ├── README.md
+    ├── Data.py
+    ├── raw_sales_data.csv
+    ├── cleaned_sales_data.csv
+    └── requirements.txt
 ```
 
 ## How to Run the Project
@@ -79,13 +86,13 @@ SWYNEX-Data-Cleaning-Preparation/
 **Step 1: Clone the repository**
 
 ```bash
-git clone https://github.com/SP5558/SWYNEX-Data-Cleaning-Preparation.git
+git clone https://github.com/SP5558/SWYNEX-Internship-Tasks.git
 ```
 
-**Step 2: Navigate to the project folder**
+**Step 2: Navigate to the Task 1 folder**
 
 ```bash
-cd SWYNEX-Data-Cleaning-Preparation
+cd SWYNEX-Internship-Tasks/Task1-Data-Cleaning
 ```
 
 **Step 3: Install dependencies**
@@ -100,9 +107,10 @@ pip install -r requirements.txt
 python Data.py
 ```
 
-The cleaned dataset will be generated as `cleaned_sales_data.csv`.
+The cleaned dataset will be generated as `cleaned_sales_data.csv` inside the Task 1 folder.
 
 ## Key Learning Outcomes
+
 - Understanding real-world data quality issues.
 - Handling missing and duplicate records using Pandas.
 - Standardizing inconsistent categorical values.
@@ -112,6 +120,7 @@ The cleaned dataset will be generated as `cleaned_sales_data.csv`.
 - Exporting clean datasets for further analysis.
 
 ## Internship
+
 **Organization:** SWYNEX Technologies  
 **Task:** Task 1 – Data Cleaning & Preparation  
 **Technology:** Python, Pandas, NumPy
