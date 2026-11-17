@@ -12,7 +12,9 @@ from pathlib import Path
 # ================= 1. LOAD DATASET =================
 
 BASE_DIR = Path(__file__).resolve().parent
-df = pd.read_csv(BASE_DIR / "cleaned_sales_data.csv")
+df = pd.read_csv(
+    BASE_DIR.parent / "Task1-Data-Cleaning" / "cleaned_sales_data.csv"
+)
 
 CHART_DIR = BASE_DIR / "charts"
 CHART_DIR.mkdir(exist_ok=True)
