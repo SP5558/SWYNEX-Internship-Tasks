@@ -6,6 +6,13 @@ This project focuses on building an interactive Sales Performance Dashboard usin
 
 The dashboard presents key business metrics, sales trends, category-wise performance, city-wise revenue, and payment mode analysis.
 
+## Dashboard Preview
+
+![SWYNEX Power BI Dashboard](https://uploads.onecompiler.io/44te9mtgg/1794984342150/Screenshot%202026-11-18%20114943.png)
+
+**Dashboard Screenshot:**  
+[View Full Dashboard Screenshot](https://uploads.onecompiler.io/44te9mtgg/1794984342150/Screenshot%202026-11-18%20114943.png)
+
 ## Tools & Technologies
 
 - Power BI Desktop
