@@ -1,5 +1,134 @@
 # SWYNEX Internship Tasks
 
+This repository contains my Data Analytics internship tasks completed as part of the **SWYNEX Technologies Internship Program**.
+
+The project covers data cleaning, data preparation, exploratory data analysis, and interactive dashboard development using Python and Power BI.
+
+## 📁 Project Structure
+
+```text
+SWYNEX-Internship-Tasks/
+│
+├── README.md
+│
+├── Task1-Data-Cleaning/
+│   ├── README.md
+│   ├── Data.py
+│   ├── raw_sales_data.csv
+│   ├── cleaned_sales_data.csv
+│   └── requirements.txt
+│
+├── Task2-EDA/
+│   ├── EDA.py
+│   ├── EDA_Report.md
+│   └── charts/
+│       ├── README.md
+│       ├── category_sales.png
+│       ├── city_sales.png
+│       ├── monthly_sales.png
+│       ├── payment_analysis.png
+│       └── quantity_analysis.png
+│
+└── Task3-PowerBI-Dashboard/
+    ├── README.md
+    ├── SWYNEX_Sales_Dashboard.pbix
+    └── Dashboard_Screenshot.png
+```
+
+## 🚀 Tasks Overview
+
+### Task 1: Data Cleaning and Preparation
+
+- Loaded and explored the raw sales dataset using Python and Pandas.
+- Identified and removed duplicate records.
+- Handled missing and inconsistent values.
+- Standardized city names, product categories, prices, and date formats.
+- Performed data validation and generated a cleaned dataset.
+
+**Dataset Summary:**
+
+| Metric | Result |
+|---|---:|
+| Original Records | 3,060 |
+| Duplicate Records Removed | 60 |
+| Final Cleaned Records | 3,000 |
+
+### Task 2: Exploratory Data Analysis (EDA)
+
+- Analyzed the cleaned sales dataset using Python.
+- Explored category-wise and city-wise revenue.
+- Analyzed monthly sales trends.
+- Examined payment mode performance.
+- Investigated quantity patterns and potential price outliers.
+- Created visualizations using Matplotlib.
+- Prepared an EDA report highlighting key findings.
+
+**Key Insights:**
+
+- Groceries generated the highest category-wise revenue.
+- Kolkata recorded the highest city-wise revenue.
+- UPI generated the highest revenue among payment modes.
+- March 2025 recorded the highest monthly revenue.
+- Potential price outliers and unusual quantity records were identified for review.
+
+### Task 3: Interactive Power BI Dashboard
+
+- Developed an interactive Sales Performance Dashboard using Power BI.
+- Created KPI cards to monitor key business metrics.
+- Analyzed monthly revenue trends.
+- Visualized category-wise and city-wise revenue.
+- Examined payment mode and quantity patterns.
+- Added interactive filters and slicers for exploring the data.
+
+**Dashboard Features:**
+
+- Total Revenue
+- Total Orders
+- Total Quantity
+- Average Order Value
+- Monthly Revenue Trend
+- Category-wise Revenue
+- City-wise Revenue
+- Payment Mode Analysis
+- Interactive Slicers and Filters
+
+**Dashboard Files:**  
+Available in the `Task3-PowerBI-Dashboard` folder.
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Power BI
+- Power Query
+- DAX
+- VS Code
+- Git and GitHub
+
+## 📊 Key Skills Demonstrated
+
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Validation
+- Data Visualization
+- Business Insights and Interpretation
+- Interactive Dashboard Development
+- Power BI and DAX
+- Python Programming
+
+## 👨‍💻 Author
+
+**Sagar Patil**
+
+- GitHub: [SP5558](https://github.com/SP5558)
+- LinkedIn: [Sagar Patil](https://www.linkedin.com/in/sagarpatil-data-analyst/)
+
+---
+
+*This repository showcases my practical learning and hands-on experience in Data Analytics through the SWYNEX Internship Program.*# SWYNEX Internship Tasks
+
 This repository contains my Data Analytics internship tasks completed as part of the SWYNEX Internship Program.
 
 The tasks focus on data cleaning, data preparation, exploratory data analysis (EDA), and data visualization using Python.
