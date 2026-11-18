@@ -160,6 +160,20 @@ It helped strengthen practical skills in Python, Pandas, data validation, data v
 
 The final outcome is a structured analytics case study that transforms raw sales data into meaningful business findings.
 
+
+## Previous Task Submissions
+
+This final project combines the work completed in the previous internship tasks.
+
+1. **Task 1 – Data Cleaning:** [View Data Cleaning Project](../Task1-Data-Cleaning/)
+2. **Task 2 – Exploratory Data Analysis:** [View EDA Project](../Task2-EDA/)
+3. **Task 3 – Power BI Dashboard:** [View Dashboard Project](../Task3-PowerBI-Dashboard/)
+
+## Final Project Files
+
+- `README.md` – Complete analytics case study
+- `Dashboard_Screenshot.png` – Power BI dashboard preview
+
 ## Internship Details
 
 **Organization:** SWYNEX Technologies  
